@@ -1,2 +1,2 @@
 # smart-tech.BE
-### API que desenvolvi para me ajudar a escolher um celular bom e barato, famoso CUSTO BENEFICIO
+### API para ayudar las personas que buscan los mejores telefonos con  bajo precio
