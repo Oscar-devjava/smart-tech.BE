@@ -21,7 +21,7 @@ public class Administrador {
 	
 	@Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)	
-	private Long id;
+	private Long idAdmin;
 	@Column(unique = true)
 	private String login;
 	@JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
