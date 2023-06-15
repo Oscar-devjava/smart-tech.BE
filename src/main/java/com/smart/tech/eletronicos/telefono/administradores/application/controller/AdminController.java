@@ -37,8 +37,8 @@ public class AdminController {
 		return ResponseEntity.ok(repository.findAll());
 	}
 	
-	@DeleteMapping("/{id}")
-	public  void deletar(@PathVariable Long id) {
-		 repository.deleteById(id);
+	@DeleteMapping("/{idAdmin}")
+	public  void deletar(@PathVariable Long idAdmin) {
+		 repository.deleteById(idAdmin);
 	}
 }
